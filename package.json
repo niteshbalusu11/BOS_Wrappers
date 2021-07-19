@@ -1,0 +1,31 @@
+{
+  "name": "bos_api",
+  "version": "1.0.0",
+  "description": "BOS for iOS",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noderunner11/NodeRunner-iOS.git"
+  },
+  "author": "Nitesh Balusu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noderunner11/NodeRunner-iOS/issues"
+  },
+  "homepage": "https://github.com/noderunner11/NodeRunner-iOS#readme",
+  "dependencies": {
+    "balanceofsatoshis": "^10.7.0",
+    "express": "^5.0.0-alpha.7",
+    "import-lazy": "^4.0.0",
+    "ln-service": "^51.9.0",
+    "pm2": "^5.1.0",
+    "request": "^2.88.2",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {}
+}
